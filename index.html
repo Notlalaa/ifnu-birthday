@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Feliz cumpleaños, mi amor</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="rain-layer" aria-hidden="true"></div>
+
+<main class="site">
+  <!-- Cover -->
+  <section id="cover" class="section cover">
+    <h1 class="cover-title">r u 26 y.o rn?</h1>
+    <button id="startBtn" class="btn start">yesss</button>
+    <div class="hint small">Klik tombol untuk memulai</div>
+  </section>
+
+  <!-- Opening -->
+  <section id="opening" class="section">
+    <div class="nav"><button class="nav-left" data-target="cover">Back</button> <button class="nav-right" data-target="2020">Next</button></div>
+    <h2>Pembukaan</h2>
+    <div class="content"><p><!-- Tulisan pembukaan kamu di sini (editable) --></p></div>
+  </section>
+
+  <!-- Years 2020-2025 -->
+<section id="2020" class="section year-section">
+  <div class="nav"><button class="nav-left" data-target="opening">Back</button> <button class="nav-right" data-target="2021">Next</button></div>
+  <h2>2020</h2>
+  <div class="photos">
+    <img src="assets/2020_1.svg" alt="photo 2020 - 1" class="photo">
+    <img src="assets/2020_2.svg" alt="photo 2020 - 2" class="photo">
+    <img src="assets/2020_3.svg" alt="photo 2020 - 3" class="photo">
+  </div>
+  <div class="content"><p><!-- Deskripsi momen 2020 (editable) --></p></div>
+</section>
+<section id="2021" class="section year-section">
+  <div class="nav"><button class="nav-left" data-target="2020">Back</button> <button class="nav-right" data-target="2022">Next</button></div>
+  <h2>2021</h2>
+  <div class="photos">
+    <img src="assets/2021_1.svg" alt="photo 2021 - 1" class="photo">
+    <img src="assets/2021_2.svg" alt="photo 2021 - 2" class="photo">
+    <img src="assets/2021_3.svg" alt="photo 2021 - 3" class="photo">
+  </div>
+  <div class="content"><p><!-- Deskripsi momen 2021 (editable) --></p></div>
+</section>
+<section id="2022" class="section year-section">
+  <div class="nav"><button class="nav-left" data-target="2021">Back</button> <button class="nav-right" data-target="2023">Next</button></div>
+  <h2>2022</h2>
+  <div class="photos">
+    <img src="assets/2022_1.svg" alt="photo 2022 - 1" class="photo">
+    <img src="assets/2022_2.svg" alt="photo 2022 - 2" class="photo">
+    <img src="assets/2022_3.svg" alt="photo 2022 - 3" class="photo">
+  </div>
+  <div class="content"><p><!-- Deskripsi momen 2022 (editable) --></p></div>
+</section>
+<section id="2023" class="section year-section">
+  <div class="nav"><button class="nav-left" data-target="2022">Back</button> <button class="nav-right" data-target="2024">Next</button></div>
+  <h2>2023</h2>
+  <div class="photos">
+    <img src="assets/2023_1.svg" alt="photo 2023 - 1" class="photo">
+    <img src="assets/2023_2.svg" alt="photo 2023 - 2" class="photo">
+    <img src="assets/2023_3.svg" alt="photo 2023 - 3" class="photo">
+  </div>
+  <div class="content"><p><!-- Deskripsi momen 2023 (editable) --></p></div>
+</section>
+<section id="2024" class="section year-section">
+  <div class="nav"><button class="nav-left" data-target="2023">Back</button> <button class="nav-right" data-target="2025">Next</button></div>
+  <h2>2024</h2>
+  <div class="photos">
+    <img src="assets/2024_1.svg" alt="photo 2024 - 1" class="photo">
+    <img src="assets/2024_2.svg" alt="photo 2024 - 2" class="photo">
+    <img src="assets/2024_3.svg" alt="photo 2024 - 3" class="photo">
+  </div>
+  <div class="content"><p><!-- Deskripsi momen 2024 (editable) --></p></div>
+</section>
+<section id="2025" class="section year-section">
+  <div class="nav"><button class="nav-left" data-target="2024">Back</button> <button class="nav-right" data-target="closing">Next</button></div>
+  <h2>2025</h2>
+  <div class="photos">
+    <img src="assets/2025_1.svg" alt="photo 2025 - 1" class="photo">
+    <img src="assets/2025_2.svg" alt="photo 2025 - 2" class="photo">
+    <img src="assets/2025_3.svg" alt="photo 2025 - 3" class="photo">
+  </div>
+  <div class="content"><p><!-- Deskripsi momen 2025 (editable) --></p></div>
+</section>
+  <section id="closing" class="section">
+    <div class="nav"><button class="nav-left" data-target="2025">Back</button> <button class="nav-right" data-target="cover">Home</button></div>
+    <h2>Penutup & Harapan</h2>
+    <div class="content"><p><!-- Tulis harapanmu di sini (editable) --></p>
+      <div style="margin-top:16px">
+        <audio id="bgm" src="assets/love_epiphany.mp3" preload="auto" loop></audio>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="js/app.js"></script>
+</body>
+</html>
